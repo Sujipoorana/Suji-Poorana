@@ -1,0 +1,10 @@
+# Update your code below this line
+# Declare variables and assign values
+pi = 3.14
+radius = 8.9
+
+# Calculate the area
+area = pi * radius * radius
+
+# Output the area
+print(area)
