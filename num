@@ -1,0 +1,14 @@
+import numpy
+
+# Read N (rows) and M (columns)
+n, m = map(int, input().split())
+
+# Read N lines and convert them into a NumPy array of integers
+# Using a list comprehension to gather the lines
+matrix = numpy.array([input().split() for _ in range(n)], int)
+
+# Task 1: Print the transpose of the array
+print(numpy.transpose(matrix))
+
+# Task 2: Print the flattened 1D version of the array
+print(matrix.flatten())
