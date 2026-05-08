@@ -1,0 +1,11 @@
+
+# accept the count of test cases given in the the 1st line
+t = int(input())        
+
+# run a loop to accept 't' inputs
+for i in range(t):      
+    # input an integer
+    n = int(input())    
+    
+    # output the negative of that integer
+    print(-n)
