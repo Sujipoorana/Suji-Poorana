@@ -1,0 +1,2 @@
+ #Replace the _ with the correct value
+print(21 + 40)
