@@ -1,0 +1,7 @@
+# Update the code below
+# Declare the variables with boolean values
+x = True
+y = False
+
+# Output x and y space separated
+print(x, y)
